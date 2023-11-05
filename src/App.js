@@ -1,8 +1,11 @@
 
 import './App.css';
+import MuiAccordion from './Components/MuiAccordion';
 import MuiButtons from './Components/MuiButtons';
+import MuiCard from './Components/MuiCard';
 import MuiCheckbox from './Components/MuiCheckbox';
 import MuiGrid from './Components/MuiGrid';
+import MuiPaper from './Components/MuiPaper';
 import MuiRating from './Components/MuiRating';
 import MuiSelect from './Components/MuiSelect';
 import MuiStacknBoxnDivider from './Components/MuiStacknBoxnDivider';
@@ -11,7 +14,8 @@ import MuiSwitch from './Components/MuiSwitch';
 import MuiTextfield from './Components/MuiTextField';
 import MuiToggleButton from './Components/MuiToggleButton';
 import MuiTypography from './Components/MuiTypography';
-
+import MuiImageList from './Components/MuiImageList';
+import MuiNavbar from './Components/MuiNavbar';
 function App() {
   return (
     <div className="App">
@@ -25,7 +29,12 @@ function App() {
        {/*<MuiRating/>*/}
        {/*<MuiStyledRating/>*/}
        {/*<MuiStacknBoxnDivider/>*/}
-       <MuiGrid/>
+       {/*<MuiGrid/>*/}
+       {/*<MuiPaper/>*/}
+       {/*<MuiCard/>*/}
+       {/*<MuiAccordion/>*/}
+       {/*<MuiImageList/>*/}
+       <MuiNavbar/>
     </div>
   );
 }

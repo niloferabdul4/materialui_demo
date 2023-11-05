@@ -10,6 +10,7 @@ const MuiGrid = () => {
                 <Box bgcolor='purple' p={2} >
                      Item1
                 </Box>
+                
             </Grid>
             <Grid item xs={12} sm={6} md={3} m={2}>
             <Box p={2} bgcolor='green' >
