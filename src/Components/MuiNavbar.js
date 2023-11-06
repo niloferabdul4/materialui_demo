@@ -1,5 +1,5 @@
 import React from 'react'
-import { AppBar,IconButton,Stack,Toolbar, Typography } from '@mui/material'
+import { AppBar,Button,IconButton,Stack,Toolbar, Typography } from '@mui/material'
 import AndroidOutlinedIcon from '@mui/icons-material/AndroidOutlined';
 const MuiNavbar = () => {
     const navItems=[{id:1,title:'Home'},
@@ -9,7 +9,7 @@ const MuiNavbar = () => {
   return (
     <div>
       <AppBar position='static'>
-          <Toolbar sx={{padding:'10px'}}>
+          <Toolbar sx={{px:'10px'}}>
                <IconButton edge='start' color='inherit' size='large'>
                   <AndroidOutlinedIcon/>
                </IconButton>
@@ -18,7 +18,7 @@ const MuiNavbar = () => {
                </Typography>
                <Stack direction='row' spacing={6}>
                     {navItems.map(item=>{return <>
-                    <Typography variant='h6' key={item.title}>{item.title}</Typography>
+                    <Button variant='text' key={item.title} color='inherit'>{item.title}</Button>
                     </>})}
                </Stack>
                

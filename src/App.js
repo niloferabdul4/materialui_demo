@@ -16,6 +16,10 @@ import MuiToggleButton from './Components/MuiToggleButton';
 import MuiTypography from './Components/MuiTypography';
 import MuiImageList from './Components/MuiImageList';
 import MuiNavbar from './Components/MuiNavbar';
+import MuiMenu from './Components/MuiMenu';
+import MuiLink from './Components/MuiLink';
+import MuiBreadcrumbs from './Components/MuiBreadcrumbs';
+import MuiDrawer from './Components/MuiDrawer';
 function App() {
   return (
     <div className="App">
@@ -35,6 +39,10 @@ function App() {
        {/*<MuiAccordion/>*/}
        {/*<MuiImageList/>*/}
        <MuiNavbar/>
+       {/*<MuiMenu/>*/}
+       {/*<MuiLink/>*/}
+       {/*<MuiBreadcrumbs/>*/}
+       <MuiDrawer/>
     </div>
   );
 }
