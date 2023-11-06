@@ -9,14 +9,14 @@ const MuiNavbar = () => {
   return (
     <div>
       <AppBar position='static'>
-          <Toolbar sx={{px:'10px'}}>
+          <Toolbar>
                <IconButton edge='start' color='inherit' size='large'>
                   <AndroidOutlinedIcon/>
                </IconButton>
                <Typography variant='h5' sx={{flexGrow:1}}>
                     ANDROID
                </Typography>
-               <Stack direction='row' spacing={6}>
+               <Stack direction='row' spacing={2}>
                     {navItems.map(item=>{return <>
                     <Button variant='text' key={item.title} color='inherit'>{item.title}</Button>
                     </>})}
