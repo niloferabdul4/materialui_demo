@@ -22,20 +22,33 @@ import MuiBreadcrumbs from './Components/Navigation/MuiBreadcrumbs';
 import MuiDrawer from './Components/Navigation/MuiDrawer';
 import MuiSpeedDial from './Components/Navigation/MuiSpeedDial';
 import MuiBottomNavigation from './Components/Navigation/MuiBottomNavigation';
+import MuiAvatar from './Components/Data Display/MuiAvatar';
+import MuiBadge from './Components/Data Display/MuiBadge';
+import MuiList from './Components/Data Display/MuiList';
+import MuiChip from './Components/Data Display/MuiChip';
+import MuiTooltip from './Components/Data Display/MuiTooltip';
+import MuiAlert from './Components/Feedback/MuiAlert';
+import MuiSnackbar from './Components/Feedback/MuiSnackbar';
+import MuiDialog from './Components/Feedback/MuiDialog';
+import MuiProgress from './Components/Feedback/MuiProgress';
+import MuiTabs from './Components/Navigation/MuiTabs';
+import MuiRadio from './Components/Input/MuiRadio';
+import MuiPagination from './Components/Navigation/MuiPagination';
 function App() {
   return (
     <div className="App">
-      {/* <MuiTypography/> */}
-       {/* <MuiButtons/> */}
-       {/* <MuiToggleButton/> */}
-       {/* <MuiTextfield/> */}
-       {/* <MuiSelect/> */}
-       {/* <MuiSwitch/> */}
-       {/* <MuiCheckbox/> */}
-       {/* <MuiRating/> */}
-       {/* <MuiStyledRating/> */}
-       {/* <MuiStacknBoxnDivider/> */}
-       {/* <MuiGrid/>
+      {/* <MuiTypography/>
+       <MuiButtons/>
+       <MuiToggleButton/>
+       <MuiTextfield/>
+       <MuiSelect/>
+       <MuiSwitch/>
+        <MuiRadio/>
+       <MuiCheckbox/>
+       <MuiRating/>
+       <MuiStyledRating/>
+       <MuiStacknBoxnDivider/>
+       <MuiGrid/>
        <MuiPaper/>
        <MuiCard/>
        <MuiAccordion/>
@@ -46,7 +59,19 @@ function App() {
        <MuiBreadcrumbs/>
        <MuiDrawer/>
        <MuiSpeedDial/>
-       <MuiBottomNavigation/> */}
+       <MuiBottomNavigation/> 
+       <MuiAvatar/>
+       <MuiBadge/>
+       <MuiList/>
+       <MuiChip/>
+       <MuiTooltip/>
+       <MuiAlert/>
+       <MuiSnackbar/>
+       <MuiDialog/>
+       <MuiProgress/>
+       <MuiTabs/>*/} 
+      <MuiPagination/>
+
     </div>
   );
 }
